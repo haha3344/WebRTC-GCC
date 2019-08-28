@@ -25,8 +25,8 @@
 #### Loss-based controller
 - 从RR中获取丢包率
 - 根据如下公式计算
-\[{As\text{ \_ }hat \left( i \left) ={ \left\{ \begin{array}{*{20}{l}}
+$$\[{As\text{ \_ }hat \left( i \left) ={ \left\{ \begin{array}{*{20}{l}}
 {As\text{ \_ }hat \left( i-1 \left) ,\text{ }\text{ }2\text{%} < p < 10\text{%}\right. \right. }\\
 {As\text{ \_ }hat \left( i-1 \left) * \left( 1-0.5p \left) ,\text{ }\text{ }10\text{%} < p\right. \right. \right. \right. }\\
 {1.05*As\text{ \_ }hat \left( i-1 \left) ,\text{ }\text{ }p < 2\text{%}\right. \right. }
-\end{array}\right. }\right. \right. }\]
+\end{array}\right. }\right. \right. }\]$$
